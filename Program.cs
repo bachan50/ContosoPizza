@@ -53,4 +53,4 @@ context.SaveChanges();
 //}
 
 //Scaffold - DbContext 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Chinook' Microsoft.EntityFrameworkCore.SqlServer
-   // Scaffold-DbContext 'Host=localhost;Port=5432;Database=myDataBase;Username=postgres;Password=postgres' Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir Models -Context ContosoPizzaContext;
+   // Scaffold-DbContext 'Host=localhost;Port=5432;Database=mydatabase;Username=postgres;Password=postgres' Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir Models -Context ContosoPizzaContext;
