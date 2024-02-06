@@ -9,8 +9,8 @@ using ContosoPizzaContext context = new ContosoPizzaContext();
 //Console.WriteLine("Hello, World!");
 //var dbContext = new ContosoPizzaContext();
 
-var c1 = new Customer() { FirstName = "Peter",LastName="Gutte",Address="2 Microsoft Way",Email= "Peter@outlook.com" };
-context.Customers.Add(c1);
+//var c1 = new Customer() { FirstName = "Claire",LastName="Hook",Address="American Street",Phone="38748374",Email= "claire.hook@outlook.com" };
+//context.Customers.Add(c1);
 //List<Customer> cust=dbContext.Customers.ToList();
 //dbContext.Remove(cust[0]);
 //Console.WriteLine("removed");
@@ -18,20 +18,20 @@ context.Customers.Add(c1);
 //Console.WriteLine(c.FirstName);
 //}
 
-await context.SaveChangesAsync();
+//await context.SaveChangesAsync();
 
 //var customers = dbContext.Customers;
 //customers.ToList<Customer>(c1);
 
 
 
-//Product veggieSpecial = new Product() { Name = "Veggie Special Pizza" , Price = 9.99M};
-//context.Products.Add(veggieSpecial);
+Product veggieSpecial = new Product() { Name = "Veggie Special Pizza" , Price = 9.99M};
+context.Products.Add(veggieSpecial);
 
-//Product deluxMeat = new Product() { Name = "Delux Meat Pizza", Price = 12.99M };
-//context.Products.Add(deluxMeat);
+Product deluxMeat = new Product() { Name = "Delux Meat Pizza", Price = 12.99M };
+context.Products.Add(deluxMeat);
 
-//context.SaveChanges();
+context.SaveChanges();
 
 //var veggieSpecial = context.Products
 //            .Where(p => p.Name == "Veggie Special Pizza")
