@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza", "ContosoPizza.csproj", "{E0CC2B50-E68C-4037-9CA8-B62EFA25D6A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizza.RE", "..\ContosoPizza.RE\ContosoPizza.RE.csproj", "{27AA30C3-573D-45C9-989C-49BEF1F7F18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza.RE", "..\ContosoPizza.RE\ContosoPizza.RE.csproj", "{27AA30C3-573D-45C9-989C-49BEF1F7F18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizzaContext.RE2", "..\ContosoPizzaContext.RE2\ContosoPizzaContext.RE2.csproj", "{CDC306AB-7885-41E3-B0B0-D4C8AFA4B6CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{27AA30C3-573D-45C9-989C-49BEF1F7F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AA30C3-573D-45C9-989C-49BEF1F7F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AA30C3-573D-45C9-989C-49BEF1F7F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC306AB-7885-41E3-B0B0-D4C8AFA4B6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC306AB-7885-41E3-B0B0-D4C8AFA4B6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC306AB-7885-41E3-B0B0-D4C8AFA4B6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC306AB-7885-41E3-B0B0-D4C8AFA4B6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
